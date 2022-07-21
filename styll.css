@@ -6,8 +6,20 @@
 }
 
 .logo {
+  display: flex;
+  height: 18px;
+}
+
+.logo-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
   height: 30px;
-  margin: 9px 30px;
+}
+.logo-img {
+  height: 30px;
 }
 
 :root {
